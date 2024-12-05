@@ -6,7 +6,7 @@ chances=5
 number_to_guess=random.randrange(100)
 print(number_to_guess)
 
-while(g_counter<=number_to_guess):
+while(g_counter<=chances):
     g_counter+=1
     my_guess=int(input("Enter your guess"))
 
@@ -16,7 +16,7 @@ while(g_counter<=number_to_guess):
      
     elif(g_counter>=chances and my_guess!=number_to_guess):
         print(f"Your guess {my_guess} is not  the number to guess as the number is :{number_to_guess}")
-        break
+        
 
     elif my_guess>number_to_guess:
         print("Your is higher than the number")
