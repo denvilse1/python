@@ -47,3 +47,36 @@ print(ord(a))
 # analysing white spacing using the ord function
 for i in a:
     print(ord(i),end="----")
+
+
+# using the .replace() function
+a ="This is ram's pen"
+# print(a.replace("ram's","Rahul's"))
+# print(a)
+
+print(a.find("is"))
+
+# for i in a:
+#     print(a.find(i,end="   "))
+
+text = "Hello, world!"
+index = text.find("world")
+print(index) 
+
+b="this is ram's pen"
+a=b.split()
+# for i in a:
+#     print(a.find(i),end="---")
+
+# slicing in python
+
+a ="Elon Musk"
+print(a[2:])
+print(a[:5])
+print(a[2::2])
+print("-------------")
+print(a[5::-1])
+# form 5 it will backward : 5,4,3,2,1
+
+print(a[:5:-1])
+# This will also go backward
