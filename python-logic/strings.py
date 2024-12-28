@@ -29,7 +29,7 @@ else:
     print(f"{a} and {b} they  are not equal")
 
 
-using ord() and chr()
+# using ord() and chr()
 a='d'
 b=ord(a)
 print(b)
